@@ -22,3 +22,10 @@ DiceRollLog est modélisée avec les champs **`id`**, **`diceCount`**, **`result
 ### 5. Création du `Repository`
 L'interface `DiceRollLogRepository` hérite de `JpaRepository<DiceRollLog, Long>`.
 
+### 6. Création du contrôleur REST pour lancer les dés
+Le contrôleur `DiceController` contient les endpoints **`GET /rollDice`** et **`GET /rollDices/{X}`**.
+
+### 7. Création du `Service`
+Le service `DiceService` contient la méthode `rollDices(int diceCount)` pour lancer les dés et enregistrer les résultats.
+
+
