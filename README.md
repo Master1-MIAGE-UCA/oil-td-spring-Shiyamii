@@ -11,6 +11,8 @@ Le projet "Dice" est une application construite avec Spring Boot permettant de s
 Le projet est crée avec [Spring Initializr](https://start.spring.io/) avec la version 3.4.0 de **Spring Boot**, **Maven**, **Spring Web**, **Spring Data JPA**, **H2 Database** .
 
 ### 2. Configuration du projet
-- Le port **8081**et le nom **dice** sont configurés dans le fichier **`application.properties`**.
+Le port **8081**et le nom **dice** sont configurés dans le fichier **`application.properties`**.
 
-###
+### 3. Création de la classe `Dice`
+La classe `Dice` est implémentée avec `roll()` pour effectuer un lancé.
+
