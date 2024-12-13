@@ -31,3 +31,5 @@ Le service `DiceService` contient la méthode `rollDices(int diceCount)` pour la
 ### 8. Contrôleur pour afficher les historiques
 Le contrôleur `DiceController` contient l'endpoint **`GET /diceLogs`** pour afficher l'historique des lancés.
 
+### 9. Tests et validation
+L'application est testée avec succès. Les résultats sont vérifiés dans la base de données et les réponses JSON.
