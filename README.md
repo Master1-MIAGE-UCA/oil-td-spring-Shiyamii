@@ -16,3 +16,8 @@ Le port **8081**et le nom **dice** sont configurés dans le fichier **`applicati
 ### 3. Création de la classe `Dice`
 La classe `Dice` est implémentée avec `roll()` pour effectuer un lancé.
 
+### 4. Création de l'entité `DiceRollLog`
+DiceRollLog est modélisée avec les champs **`id`**, **`diceCount`**, **`results`**, **`timestamp`**.
+
+
+
