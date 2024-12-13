@@ -29,4 +29,8 @@ public class DiceService {
             diceRollLogRepository.save(diceRollLog);
             return result;
         }
+
+        public List<DiceRollLog> getRollLogs() {
+            return diceRollLogRepository.findAll();
+        }
 }

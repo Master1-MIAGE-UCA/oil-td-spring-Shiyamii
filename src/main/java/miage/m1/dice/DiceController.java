@@ -30,4 +30,9 @@ public class DiceController {
         }
         return this.diceService.roll(Integer.parseInt(x.get()));
     }
+
+    @GetMapping("/diceLogs")
+    public List<DiceRollLog> getRollLogs() {
+        return this.diceService.getRollLogs();
+    }
 }

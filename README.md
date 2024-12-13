@@ -28,4 +28,6 @@ Le contrôleur `DiceController` contient les endpoints **`GET /rollDice`** et **
 ### 7. Création du `Service`
 Le service `DiceService` contient la méthode `rollDices(int diceCount)` pour lancer les dés et enregistrer les résultats.
 
+### 8. Contrôleur pour afficher les historiques
+Le contrôleur `DiceController` contient l'endpoint **`GET /diceLogs`** pour afficher l'historique des lancés.
 
