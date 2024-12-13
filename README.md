@@ -19,5 +19,6 @@ La classe `Dice` est implémentée avec `roll()` pour effectuer un lancé.
 ### 4. Création de l'entité `DiceRollLog`
 DiceRollLog est modélisée avec les champs **`id`**, **`diceCount`**, **`results`**, **`timestamp`**.
 
-
+### 5. Création du `Repository`
+L'interface `DiceRollLogRepository` hérite de `JpaRepository<DiceRollLog, Long>`.
 
