@@ -5,10 +5,12 @@ import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import lombok.*;
 
 import java.util.List;
 
 @Entity
+@Getter @Setter @AllArgsConstructor @NoArgsConstructor @Builder
 public class DiceRollLog {
     @Id
     @GeneratedValue
@@ -20,36 +22,4 @@ public class DiceRollLog {
     private List<Integer> results;
 
     private long timestamp;
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public long getTimestamp() {
-        return timestamp;
-    }
-
-    public void setTimestamp(long timestamp) {
-        this.timestamp = timestamp;
-    }
-
-    public List<Integer> getResults() {
-        return results;
-    }
-
-    public void setResults(List<Integer> results) {
-        this.results = results;
-    }
-
-    public int getDiceCount() {
-        return diceCount;
-    }
-
-    public void setDiceCount(int diceCount) {
-        this.diceCount = diceCount;
-    }
 }

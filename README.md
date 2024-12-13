@@ -33,3 +33,7 @@ Le contrôleur `DiceController` contient l'endpoint **`GET /diceLogs`** pour aff
 
 ### 9. Tests et validation
 L'application est testée avec succès. Les résultats sont vérifiés dans la base de données et les réponses JSON.
+
+### 10. (Bonus) Ajout de fonctionnalités avancées
+- **Swagger** : La documentation des endpoints est accessible sur **`http://localhost:8081/swagger-ui/index.html`**.
+- **Lombok** : Les annotations Lombok sont utilisées pour simplifier le code.
